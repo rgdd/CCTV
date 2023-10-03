@@ -1,0 +1,35 @@
+[
+  {
+    "old_size": 0,
+    "new_size": 0,
+    "old_root": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "new_root": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "consistency_path": []
+  },
+  {
+    "old_size": 0,
+    "new_size": 1,
+    "old_root": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "new_root": "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
+    "consistency_path": []
+  },
+  {
+    "old_size": 1,
+    "new_size": 1,
+    "old_root": "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
+    "new_root": "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
+    "consistency_path": []
+  },
+  {
+    "old_size": 1,
+    "new_size": 10,
+    "old_root": "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
+    "new_root": "X61aoZjC9sMP0iZaieElFosOH2CCZBO0W4EKIglQvSU=",
+    "consistency_path": [
+      "V+s1YV1H807HFMrN9f10YIpejhAnJOgLJLKHwMJ7ajE=",
+      "271owyVhSnPay056h6K3tK6XJLSJ5WKe6DFR/o8Or9c=",
+      "lCw8dj8pYIlX2S0JVYnm5ftlQUw++a4m/B9J8H9eDcc=",
+      "k6jBBWXmeTmR34Cyqu3RxQSzpyvl1xghtCDcSDvLXk0="
+    ]
+  }
+]
