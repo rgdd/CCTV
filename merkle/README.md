@@ -22,7 +22,10 @@ by mutating valid input parameters into edge cases.
 Generate:
 
     $ make
+    mkdir -p testdata
     ./scripts/merkle.sh >testdata/merkle_tree.json
+    go test ./internal/merkle
+    ok      c2sp.org/CCTV/merkle/internal/merkle    0.001s
     go run ./cmd/inclusion/ -valid-file testdata/inclusion-valid.json -invalid-file testdata/inclusion-invalid.json
     go run ./cmd/consistency/ -valid-file testdata/consistency-valid.json -invalid-file testdata/consistency-invalid.json
 
