@@ -55,13 +55,13 @@ func TestRootHash(t *testing.T) {
 }
 
 func TestTH(t *testing.T) {
-	for i, tc := range testCases(t)[:10] {
-		if len(tc.LeafData) != 1 || int(tc.LeafData[0]-'0') != i {
+	for i, tc := range testCases(t) {
+		if len(tc.LeafData) != 1 || int(tc.LeafData[0]-'a') != i {
 			t.Errorf("unexpected leaf data in test case %d: %s (aborting)", i, tc.LeafData)
 			return
 		}
 
-		from := '0'
+		from := byte('a')
 		to := tc.LeafData[0]
 		if got, want := th(from, to), tc.RootHash; got != want {
 			t.Errorf("test-case %d: invalid root hash\ngot:  %x\nwant: %x\n", i, got, want)
