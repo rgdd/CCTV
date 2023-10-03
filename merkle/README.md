@@ -83,7 +83,7 @@ Each test file is a list of JSON objects:
         "Mp/pypOznIUEfnuvBvQqrLysbdIKmBXUIogTDxI0Ips=",
         "gYBsAzbw0ZUS3U58BBw1SbeptlfZmbR94c0lDPG7yBM="
       ]
-    }
+    },
     ...
 
 Valid test cases are enumerated in
@@ -109,7 +109,7 @@ Each test file is a list of JSON objects:
         "lCw8dj8pYIlX2S0JVYnm5ftlQUw++a4m/B9J8H9eDcc=",
         "k6jBBWXmeTmR34Cyqu3RxQSzpyvl1xghtCDcSDvLXk0="
       ]
-    }
+    },
     ...
 
 Valid test cases are enumerated in
