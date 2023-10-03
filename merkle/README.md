@@ -37,9 +37,9 @@ The [entire test vector](./testdata/merkle_tree.json) is a list of JSON objects:
 
     ...
     {
-      "leaf_data": "1",
-      "leaf_hash": "IhXorE4rhxwqSBieeXOMlWwIHiOsLyQVv3faGZ39kgw=",
-      "root_hash": "ywCYnZSlacCmeK4EK2Pc1GJduWRAUX83put5duok7Us="
+      "leaf_data": "b",
+      "leaf_hash": "V+s1YV1H807HFMrN9f10YIpejhAnJOgLJLKHwMJ7ajE=",
+      "root_hash": "sTeYX/SE+2ANuTEHx3sDZcgNePW0Kd7Q/Zc2HQd5mes="
     },
     ...
 
@@ -73,14 +73,17 @@ Each test file is a list of JSON objects:
 
     ...
     {
-      "leaf_hash": "2zQm6HgGjSjSabbIcXIyLOU3K2V1bQeJAB00g19gHAM=",
+      "leaf_hash": "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
       "leaf_index": 0,
-      "tree_size": 2,
-      "root_hash": "ywCYnZSlacCmeK4EK2Pc1GJduWRAUX83put5duok7Us=",
+      "tree_size": 10,
+      "root_hash": "X61aoZjC9sMP0iZaieElFosOH2CCZBO0W4EKIglQvSU=",
       "inclusion_path": [
-        "IhXorE4rhxwqSBieeXOMlWwIHiOsLyQVv3faGZ39kgw="
+        "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
+        "petue8+q/0lXw0Lgy/6IIJ2+IFj8Pho0VcwHGSLIV0E=",
+        "Mp/pypOznIUEfnuvBvQqrLysbdIKmBXUIogTDxI0Ips=",
+        "gYBsAzbw0ZUS3U58BBw1SbeptlfZmbR94c0lDPG7yBM="
       ]
-    },
+    }
     ...
 
 Valid test cases are enumerated in
@@ -97,13 +100,16 @@ Each test file is a list of JSON objects:
     ...
     {
       "old_size": 1,
-      "new_size": 2,
-      "old_root": "2zQm6HgGjSjSabbIcXIyLOU3K2V1bQeJAB00g19gHAM=",
-      "new_root": "ywCYnZSlacCmeK4EK2Pc1GJduWRAUX83put5duok7Us="	,
+      "new_size": 10,
+      "old_root": "Aippeebat6pa5MPl5F9+l3ESp+Y1k4INvsHsc4ok+Tw=",
+      "new_root": "X61aoZjC9sMP0iZaieElFosOH2CCZBO0W4EKIglQvSU=",
       "consistency_path": [
-        "IhXorE4rhxwqSBieeXOMlWwIHiOsLyQVv3faGZ39kgw="
+        "V+s1YV1H807HFMrN9f10YIpejhAnJOgLJLKHwMJ7ajE=",
+        "271owyVhSnPay056h6K3tK6XJLSJ5WKe6DFR/o8Or9c=",
+        "lCw8dj8pYIlX2S0JVYnm5ftlQUw++a4m/B9J8H9eDcc=",
+        "k6jBBWXmeTmR34Cyqu3RxQSzpyvl1xghtCDcSDvLXk0="
       ]
-    },
+    }
     ...
 
 Valid test cases are enumerated in
