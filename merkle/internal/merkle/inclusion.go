@@ -31,7 +31,7 @@ var inclusionParams = []InclusionParam{
 	{LeafHash: leafHash([]byte{'a'}), LeafIndex: 0, TreeSize: 2, RootHash: th('a', 'b'), Path: []Hash{th('b', 'b')}},
 	{LeafHash: leafHash([]byte{'b'}), LeafIndex: 1, TreeSize: 2, RootHash: th('a', 'b'), Path: []Hash{th('a', 'a')}},
 	// Size 10
-	{LeafHash: leafHash([]byte{'a'}), LeafIndex: 0, TreeSize: 10, RootHash: th('a', 'j'), Path: []Hash{th('a', 'a'), th('b', 'c'), th('d', 'g'), th('h', 'i')}},
+	{LeafHash: leafHash([]byte{'a'}), LeafIndex: 0, TreeSize: 10, RootHash: th('a', 'j'), Path: []Hash{th('b', 'b'), th('c', 'd'), th('e', 'h'), th('i', 'j')}},
 	// TODO: port all test vectors from rgdd/ct
 }
 
